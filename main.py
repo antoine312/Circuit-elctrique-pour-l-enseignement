@@ -448,7 +448,7 @@ pygame.image.save(fen,"save.png")
 
 class bouton_save:
     def __init__(self):
-        self.im=pygame.draw.rect(fen, (50,30,80), pygame.Rect(1150, 10, 600, 600),  width=20)
+        self.im=pygame.draw.rect(fen, (50,30,80), pygame.Rect(1150, 10, 200, 80),  width=20)
     def affiche(self):
         font2 = pygame.font.SysFont(None, 90)
         img2 = font2.render("""SAVE""", True,(50,30,80))
